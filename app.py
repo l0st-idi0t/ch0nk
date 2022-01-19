@@ -1,7 +1,4 @@
 from flask import *
-from no_die import *
-
-no_die()
 
 app = Flask(__name__)
 
