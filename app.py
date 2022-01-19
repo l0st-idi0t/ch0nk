@@ -3,7 +3,7 @@ from no_die import *
 
 no_die()
 
-app = Flask('')
+app = Flask(__name__)
 
 @app.route('/')
 def home():
